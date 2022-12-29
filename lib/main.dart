@@ -18,7 +18,7 @@ class Myapp extends StatelessWidget
 
       //container..............
       /*************************************************************************************************/
-     /* body:Center(
+      body:Center(
 
         child: Container(
           width: 150,
@@ -34,11 +34,11 @@ class Myapp extends StatelessWidget
             ),
           ),
         ),
-      ),*/
+      ),
       /****************************************************************************************************/
         /*Text button*/
       /*************************************************************************************************/
-      body: TextButton(
+     /* body: TextButton(
         child:Text("Click here!!"),
         onPressed:() {
           print("successfully");
@@ -46,7 +46,7 @@ class Myapp extends StatelessWidget
         onLongPress: (){
           print("hellow");
         },
-      ),
+      ),*/
     );
   }
 }
